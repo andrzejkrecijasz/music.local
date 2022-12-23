@@ -1,7 +1,7 @@
 # Use an official Python runtime as a parent image
 FROM python:3.7-slim
 
-# Install any needed packages specified in requirements.txt
+# Install any needed packages 
 RUN apt-get update
 RUN apt-get -y install git
 RUN mkdir app
